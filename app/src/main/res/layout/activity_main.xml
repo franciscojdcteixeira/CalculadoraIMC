@@ -47,6 +47,7 @@
             android:layout_height="wrap_content"
             android:hint="Introduz a tua altura. (Exemplo: 1.70)"
             android:inputType="numberDecimal"/>
+
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
