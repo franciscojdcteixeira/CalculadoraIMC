@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             val alturaStr: String = edtAltura.text.toString()
 
             if (pesoStr == "" || alturaStr == "") {
-                //Mostrar mensagem ao utilizador
+
                 Snackbar.make(
                     edtPeso,
                     "Preenche todos os campos",
@@ -41,23 +41,9 @@ class MainActivity : AppCompatActivity() {
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
 
-
-                //Navegar para próxima página
-                //Criar layout da próxima página
-                //Passar dados (resultado) para a próxima página
-
-
-                //Intent - classe do próprio android
-                //Intent Explicita
-
                 val intent = Intent(this, ResultsActivity::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
-
-
-            // Cores
-            // EditText background + Icone
-            // Gradient + Icone + Title + Description
 
             }
         }
