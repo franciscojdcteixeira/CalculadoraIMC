@@ -55,8 +55,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
 
 
-                println("Teste! " + resultado)
-
+            // Cores
+            // EditText background + Icone
+            // Gradient + Icone + Title + Description
 
             }
         }
